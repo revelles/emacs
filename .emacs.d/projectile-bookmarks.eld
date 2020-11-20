@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/" "~/workspace/" "~/.emacs.d/my-little-friends/" "~/workspace/tic-tac-toe/")

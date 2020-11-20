@@ -1,0 +1,60 @@
+
+;; ----- smex-history -----
+(
+ package-install
+ package-refresh-contents
+ ns-copy-including-secondary
+ package-list-packages
+ lsp
+ lsp-mode
+ package-delete
+)
+
+;; ----- smex-data -----
+(
+ (lsp . 11)
+ (package-delete . 71)
+ (search-forward . 50)
+ (package-install . 39)
+ (package-refresh-contents . 27)
+ (package-reinstall . 20)
+ (lsp-java-generate-overrides . 1)
+ (display-line-numbers-mode . 16)
+ (lsp-java-spring-initializr . 2)
+ (kill-buffer . 1)
+ (lsp-describe-session . 1)
+ (search-backward . 5)
+ (list-packages . 4)
+ (package-autoremove . 2)
+ (helm-list-elisp-packages . 1)
+ (global-display-line-numbers-mode . 6)
+ (slack-register-team . 1)
+ (flycheck-verify-setup . 2)
+ (flycheck-disable-checker . 2)
+ (flycheck-verify-mode . 1)
+ (lsp-restart-workspace . 1)
+ (lsp-org . 5)
+ (lsp-mode . 11)
+ (re-search-forward . 4)
+ (lsp-doctor . 4)
+ (lsp-java-update-server . 1)
+ (lsp-log-io-mode . 3)
+ (treemacs-expand-lsp-projects . 2)
+ (markdown . 3)
+ (package-install-file . 7)
+ (customize-mode . 7)
+ (package-list-packages . 6)
+ (find-grep . 1)
+ (replace-string . 3)
+ (recover-this-file . 1)
+ (describe-theme . 1)
+ (ns-copy-including-secondary . 6)
+ (eww . 1)
+ (markdown-mode-info . 1)
+ (comment-region . 2)
+ (uncomment-region . 3)
+ (isearch-forward . 1)
+ (eval-region . 2)
+ (load-file . 1)
+ (flyspell-mode . 3)
+)

@@ -1,0 +1,5 @@
+#name : insert a source (BASH) declaration
+# --
+#+begin_src markdown
+$0
+#+end_src

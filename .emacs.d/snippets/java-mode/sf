@@ -1,0 +1,3 @@
+#name : sf
+# --
+String.format("%s", $0);

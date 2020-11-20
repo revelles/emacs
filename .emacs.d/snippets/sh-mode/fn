@@ -1,0 +1,5 @@
+#name : fn
+# --
+${1:read_user_input}() {
+  $0
+}

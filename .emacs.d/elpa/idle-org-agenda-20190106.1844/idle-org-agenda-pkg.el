@@ -1,0 +1,2 @@
+;;; Generated package description from /Users/franciscorevelles/.emacs.d/elpa/idle-org-agenda-20190106.1844/idle-org-agenda.el  -*- no-byte-compile: t -*-
+(define-package "idle-org-agenda" "20190106.1844" "Shows your agenda when editor is idle." 'nil :commit "8e6052fc4923c30132052d67d794b76c92851c20" :keywords '("org" "org-mode" "org-agenda" "calendar") :authors '(("John Wiegley" . "jwiegley@gmail.com")) :maintainer '("Enis Özgen" . "mail@enisozgen.com") :url "https://github.com/enisozgen/idle-org-agenda")

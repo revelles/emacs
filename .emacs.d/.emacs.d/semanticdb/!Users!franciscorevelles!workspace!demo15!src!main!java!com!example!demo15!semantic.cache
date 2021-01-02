@@ -1,0 +1,33 @@
+;; Object semanticdb-project-database-file-1fe784a2f49c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1fe784a2f49c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1fe784a2f47c"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example.demo15" package nil nil [1 28])
+            ("org.springframework.boot.SpringApplication" include nil nil [30 80])
+            ("org.springframework.boot.autoconfigure.SpringBootApplication" include nil nil [81 149])
+            ("DemoApplication" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [239 252]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [215 312]))                  
+                :type "class")
+                nil [182 315]))          
+      :file "DemoApplication.java"
+      :pointmax 316
+      :fsize 307
+      :lastmodtime '(24512 31426 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!franciscorevelles!workspace!demo15!src!main!java!com!example!demo15!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

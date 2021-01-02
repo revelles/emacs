@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/" "~/workspace-1130-jdk15/demo/" "~/.emacs.d/elpa/avy-0.5.0/" "~/workspace-jdk15/demo/" "~/workspace-1130-jdk15/demo/src/main/resources/")

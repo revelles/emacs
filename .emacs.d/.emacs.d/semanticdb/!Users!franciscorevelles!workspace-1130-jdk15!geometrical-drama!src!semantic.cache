@@ -1,0 +1,81 @@
+;; Object semanticdb-project-database-file-1fff91051054
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1fff91051054"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1fff8fe555a0"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example.demo.graphics" package nil nil [1 35])
+            ("Shape" type
+               (:typemodifiers ("public" "abstract")
+                :members 
+                  ( ("area" function
+                       (:typemodifiers ("public" "abstract")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [68 98])
+                    ("perimeter" function
+                       (:typemodifiers ("public" "abstract")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [99 134]))                  
+                :type "class")
+                nil [37 136]))          
+      :file "Shape.java"
+      :pointmax 137
+      :fsize 119
+      :lastmodtime '(24519 63778 13908 894000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1fff90197ee4"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example.demo.graphics" package nil nil [1 35])
+            ("Rectangle" type
+               (:typemodifiers ("public")
+                :superclasses "Shape"
+                :members 
+                  ( ("base" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [78 98])
+                    ("height" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [100 122])
+                    ("area" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [143 217])
+                    ("perimeter" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [231 310])
+                    ("getBase" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [313 356])
+                    ("setBase" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("base" variable (:type "double") (reparse-symbol formal_parameters) [379 390]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [359 416])
+                    ("getHeight" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [419 466])
+                    ("setHeight" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("height" variable (:type "double") (reparse-symbol formal_parameters) [491 504]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [469 534]))                  
+                :type "class")
+                nil [37 541]))          
+      :file "Rectangle.java"
+      :pointmax 542
+      :fsize 524
+      :lastmodtime '(24519 64874 494801 141000)
+      :unmatched-syntax nil))
+  :file "!Users!franciscorevelles!workspace-1130-jdk15!geometrical-drama!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

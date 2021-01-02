@@ -1,0 +1,58 @@
+;; Object semanticdb-project-database-file-1ff40e230718
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ff40e230718"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ff40e2306d8"
+      :major-mode java-mode
+      :tags 
+        '( ("com.geometry.forms" package nil nil [1 28])
+            ("Circle" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("radius" variable (:type "double") (reparse-symbol class_member_declaration) [56 70])
+                    ("circumference" variable (:type "double") (reparse-symbol class_member_declaration) [75 96])
+                    ("Circle" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("initialRadius" variable (:type "double") (reparse-symbol formal_parameters) [116 136]))                          )
+                        (reparse-symbol class_member_declaration) [102 209]))                  
+                :type "class")
+                nil [30 211]))          
+      :file "Circle.java"
+      :pointmax 212
+      :fsize 384
+      :lastmodtime '(24527 61023 3247 97000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ff40e2306f8"
+      :major-mode java-mode
+      :tags 
+        '( ("com.geometry.forms" package nil nil [1 28])
+            ("Rectangle" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("base" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [60 80])
+                    ("height" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [81 88])
+                    ("Rectangle" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("base" variable (:type "double") (reparse-symbol formal_parameters) [108 119])
+                            ("height" variable (:type "double") (reparse-symbol formal_parameters) [121 134]))                          )
+                        (reparse-symbol class_member_declaration) [98 186]))                  
+                :type "class")
+                nil [31 193]))          
+      :file "Rectangle.java"
+      :pointmax 194
+      :fsize 193
+      :lastmodtime '(24527 61020 864000 789000)
+      :unmatched-syntax nil))
+  :file "!Users!franciscorevelles!workspace-1130-jdk15!geometry!src!com!geometry!forms!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

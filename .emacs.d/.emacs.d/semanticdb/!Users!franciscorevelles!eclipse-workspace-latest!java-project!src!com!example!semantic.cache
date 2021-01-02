@@ -1,0 +1,45 @@
+;; Object semanticdb-project-database-file-1fe7b1b2dd90
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1fe7b1b2dd90"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1fe7b227581c"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example" package nil nil [1 21])
+            ("Rectangle" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("Rectangle" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [53 88])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [117 130]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [93 229]))                  
+                :type "class")
+                nil [24 231]))          
+      :file "Rectangle.java"
+      :pointmax 232
+      :fsize 201
+      :lastmodtime '(24513 5741 116513 450000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1fe7b227583c"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example" package nil nil [53 73])
+            ("java.applet.*" include nil nil [75 96]))          
+      :file "package-info.java"
+      :pointmax 108
+      :fsize 95
+      :lastmodtime '(24513 6445 762456 261000)
+      :unmatched-syntax '((IMPORT 98 . 104) ($EOI 108 . 108) (IMPORT 117 . 123) ($EOI 126 . 126) (IDENTIFIER 117 . 122) (IDENTIFIER 117 . 119) (IMPORT 98 . 104) ($EOI 114 . 114) (IMPORT 98 . 104) ($EOI 114 . 114) (IMPORT 98 . 104) ($EOI 113 . 113) (IMPORT 98 . 104) ($EOI 112 . 112) (IMPORT 98 . 104) ($EOI 111 . 111) (IMPORT 98 . 104) ($EOI 110 . 110) (IMPORT 98 . 104) ($EOI 107 . 107) (IMPORT 98 . 104) ($EOI 104 . 104) (IDENTIFIER 98 . 102) (IDENTIFIER 98 . 100))))
+  :file "!Users!franciscorevelles!eclipse-workspace-latest!java-project!src!com!example!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

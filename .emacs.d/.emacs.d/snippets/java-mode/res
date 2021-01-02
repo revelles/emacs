@@ -1,0 +1,3 @@
+#name : res
+# --
+HttpResponse<String> response = mHttpClient.send(request, ofString());$0

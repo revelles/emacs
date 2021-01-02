@@ -1,0 +1,60 @@
+;; Object semanticdb-project-database-file-1fe7d9c5728c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1fe7d9c5728c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1fe7d9c572b4"
+      :major-mode java-mode
+      :tags 
+        '( ("graphics" package nil nil [1 18])
+            ("Circle" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("radius" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [45 64])
+                    ("circumference" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [66 96])
+                    ("Circle" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("r" variable (:type "int") (reparse-symbol formal_parameters) [120 125]))                          )
+                        (reparse-symbol class_member_declaration) [106 208])
+                    ("getCircumference" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [213 273])
+                    ("setCircumference" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("circumference" variable (:type "double") (reparse-symbol formal_parameters) [307 327]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [278 371]))                  
+                :type "class")
+                nil [21 379]))          
+      :file "Circle.java"
+      :pointmax 380
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1fe7d94d9504"
+      :major-mode java-mode
+      :tags 
+        '( ("graphics" package nil nil [1 18])
+            ("java.util.List" include nil nil [20 42])
+            ("Rectangle" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("Rectangle" function (:constructor-flag t) (reparse-symbol class_member_declaration) [71 98]))                  
+                :type "class")
+                nil [44 106]))          
+      :file "Rectangle.java"
+      :pointmax 108
+      :fsize 101
+      :lastmodtime '(24514 63773 671298 745000)
+      :unmatched-syntax nil))
+  :file "!Users!franciscorevelles!jdk15-workspace!demo!src!graphics!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

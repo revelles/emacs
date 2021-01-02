@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-1fe7dad66b3c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1fe7dad66b3c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1fe7dad66b48"
+      :major-mode java-mode
+      :tags nil
+      :file "module-info.java"
+      :pointmax 80
+      :fsize 79
+      :lastmodtime '(24514 62899 297512 141000)
+      :unmatched-syntax '((BRACE_BLOCK 77 . 80) (IDENTIFIER 72 . 76) (DOT 71 . 72) (IDENTIFIER 67 . 71) (DOT 66 . 67) (IDENTIFIER 60 . 66) (IDENTIFIER 53 . 59))))
+  :file "!Users!franciscorevelles!jdk15-workspace!java-project!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

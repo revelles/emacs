@@ -1,0 +1,73 @@
+;; Object semanticdb-project-database-file-1ffb0fa65c04
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ffb0fa65c04"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ffb0e3c39f0"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example.demo" package nil nil [1 26])
+            ("org.junit.jupiter.api.Test" include nil nil [92 126])
+            ("PersonTest" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("testMethods" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [169 415]))                  
+                :type "class")
+                nil [129 417]))          
+      :file "PersonTest.java"
+      :pointmax 418
+      :fsize 417
+      :lastmodtime '(24520 11175 783411 377000)
+      :unmatched-syntax '((IDENTIFIER 76 . 88) (DOT 75 . 76) (IDENTIFIER 65 . 75) (DOT 64 . 65) (IDENTIFIER 61 . 64) (DOT 60 . 61) (IDENTIFIER 53 . 60) (DOT 52 . 53) (IDENTIFIER 47 . 52) (DOT 46 . 47) (IMPORT 29 . 35) (STATIC 36 . 42) (IDENTIFIER 43 . 46) (IDENTIFIER 76 . 88) (DOT 75 . 76) (IDENTIFIER 65 . 75) (DOT 64 . 65) (IDENTIFIER 61 . 64) (DOT 60 . 61) (IDENTIFIER 53 . 60) (DOT 52 . 53) (IDENTIFIER 47 . 52) (DOT 46 . 47) (IMPORT 29 . 35) (STATIC 36 . 42) (IDENTIFIER 43 . 46)))
+    (semanticdb-table "semanticdb-table-1ffb0f18b130"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example.demo" package nil nil [1 26])
+            ("org.junit.jupiter.api.Test" include nil nil [28 62])
+            ("org.springframework.boot.test.context.SpringBootTest" include nil nil [63 123])
+            ("DemoApplicationTests" type
+               (:members 
+                  ( ("contextLoads" function (:type "void") (reparse-symbol class_member_declaration) [179 203]))                  
+                :type "class")
+                nil [141 206]))          
+      :file "DemoApplicationTests.java"
+      :pointmax 208
+      :fsize 207
+      :lastmodtime '(24522 42313 602300 547000)
+      :unmatched-syntax '((IDENTIFIER 125 . 140) (IDENTIFIER 125 . 140)))
+    (semanticdb-table "semanticdb-table-1ffb0f10be9c"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example.demo" package nil nil [1 26])
+            ("org.junit.jupiter.api.Test" include nil nil [251 285])
+            ("org.springframework.beans.factory.annotation.Autowired" include nil nil [287 349])
+            ("org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc" include nil nil [350 434])
+            ("org.springframework.boot.test.context.SpringBootTest" include nil nil [435 495])
+            ("org.springframework.http.MediaType" include nil nil [496 538])
+            ("org.springframework.test.web.servlet.MockMvc" include nil nil [539 591])
+            ("org.springframework.test.web.servlet.request.MockMvcRequestBuilders" include nil nil [592 667])
+            ("HelloControllerTest" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("mvc" variable
+                       (:typemodifiers ("private")
+                        :type "MockMvc")
+                        (reparse-symbol class_member_declaration) [759 779])
+                    ("getHello" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [795 1027]))                  
+                :type "class")
+                nil [710 1029]))          
+      :file "HelloControllerTest.java"
+      :pointmax 1030
+      :fsize 1024
+      :lastmodtime '(24522 42310 222379 990000)
+      :unmatched-syntax nil))
+  :file "!Users!franciscorevelles!workspace-1130-jdk15!demo!src!test!java!com!example!demo!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

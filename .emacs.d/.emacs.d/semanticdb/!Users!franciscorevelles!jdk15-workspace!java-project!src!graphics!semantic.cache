@@ -1,0 +1,38 @@
+;; Object semanticdb-project-database-file-1fe7daf09c44
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1fe7daf09c44"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1fe7db13d278"
+      :major-mode java-mode
+      :tags 
+        '( ("graphics" package nil nil [1 18])
+            ("java.util.List" include nil nil [72 94])
+            ("Rectangle" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("height" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [182 204])
+                    ("wide" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [206 226])
+                    ("Rectangle" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("height" variable (:type "double") (reparse-symbol formal_parameters) [248 261])
+                            ("wide" variable (:type "double") (reparse-symbol formal_parameters) [263 274]))                          )
+                        (reparse-symbol class_member_declaration) [231 322]))                  
+                :type "class")
+                nil [140 325]))          
+      :file "Rectangle.java"
+      :pointmax 326
+      :fsize 305
+      :lastmodtime '(24515 34390 215192 822000)
+      :unmatched-syntax nil))
+  :file "!Users!franciscorevelles!jdk15-workspace!java-project!src!graphics!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

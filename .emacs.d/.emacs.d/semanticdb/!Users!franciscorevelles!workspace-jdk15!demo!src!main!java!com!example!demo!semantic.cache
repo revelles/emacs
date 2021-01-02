@@ -1,0 +1,101 @@
+;; Object semanticdb-project-database-file-1ffa024087c8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ffa024087c8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ffa02408788"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example.demo" package nil nil [1 26])
+            ("java.util.ArrayList" include nil nil [28 55])
+            ("java.util.HashSet" include nil nil [56 81])
+            ("java.util.List" include nil nil [82 104])
+            ("java.util.Set" include nil nil [105 126])
+            ("Rectangle" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("base" variable
+                       (:typemodifiers ("private")
+                        :type "float")
+                        (reparse-symbol class_member_declaration) [180 199])
+                    ("height" variable
+                       (:typemodifiers ("private")
+                        :type "float")
+                        (reparse-symbol class_member_declaration) [201 222])
+                    ("Rectangle" function (:constructor-flag t) (reparse-symbol class_member_declaration) [225 252])
+                    ("getHeight" function
+                       (:typemodifiers ("public")
+                        :type "float")
+                        (reparse-symbol class_member_declaration) [258 304])
+                    ("setHeight" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("height" variable (:type "float") (reparse-symbol formal_parameters) [329 341]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [307 371])
+                    ("getBase" function
+                       (:typemodifiers ("public")
+                        :type "float")
+                        (reparse-symbol class_member_declaration) [374 416])
+                    ("setBase" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("base" variable (:type "float") (reparse-symbol formal_parameters) [439 449]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [419 475])
+                    ("Rectangle" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("base" variable
+                               (:typemodifiers ("final")
+                                :type "float")
+                                (reparse-symbol formal_parameters) [495 511])
+                            ("height" variable
+                               (:typemodifiers ("final")
+                                :type "float")
+                                (reparse-symbol formal_parameters) [513 531]))                          )
+                        (reparse-symbol class_member_declaration) [478 585])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [688 782]))                  
+                :type "class")
+                nil [154 800]))          
+      :file "Rectangle.java"
+      :pointmax 801
+      :fsize 800
+      :lastmodtime '(24521 21280 53380 340000)
+      :unmatched-syntax '((SEMICOLON 673 . 674) (PAREN_BLOCK 671 . 673) (GT 670 . 671) (LT 663 . 664) (NEW 650 . 653) (EQ 648 . 649) (GT 641 . 642) (LT 634 . 635) (SEMICOLON 624 . 625) (PAREN_BLOCK 622 . 624) (GT 621 . 622) (LT 620 . 621) (NEW 609 . 612) (EQ 607 . 608) (GT 601 . 602) (IDENTIFIER 591 . 594) (LT 594 . 595)))
+    (semanticdb-table "semanticdb-table-1ffa024087a8"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example.demo" package nil nil [1 26])
+            ("org.springframework.boot.SpringApplication" include nil nil [28 78])
+            ("org.springframework.boot.autoconfigure.SpringBootApplication" include nil nil [79 147])
+            ("DemoApplication" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [243 256]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [219 771])
+                    ("DemoApplication" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [774 880]))                  
+                :type "class")
+                nil [184 882]))          
+      :file "DemoApplication.java"
+      :pointmax 883
+      :fsize 875
+      :lastmodtime '(24521 29775 498264 300000)
+      :unmatched-syntax nil))
+  :file "!Users!franciscorevelles!workspace-jdk15!demo!src!main!java!com!example!demo!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

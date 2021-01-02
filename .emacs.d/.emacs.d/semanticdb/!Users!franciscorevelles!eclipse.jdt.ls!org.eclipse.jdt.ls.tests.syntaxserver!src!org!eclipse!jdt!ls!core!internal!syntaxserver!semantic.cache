@@ -1,0 +1,356 @@
+;; Object semanticdb-project-database-file-1ff6b5d90c1c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ff6b5d90c1c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ff6b5d90c40"
+      :major-mode java-mode
+      :tags 
+        '( ("org.eclipse.jdt.ls.core.internal.syntaxserver" package nil nil [573 627])
+            ("java.io.IOException" include nil nil [865 892])
+            ("java.net.URI" include nil nil [893 913])
+            ("java.util.Collections" include nil nil [914 943])
+            ("java.util.List" include nil nil [944 966])
+            ("java.util.Map" include nil nil [967 988])
+            ("java.util.Objects" include nil nil [989 1014])
+            ("org.apache.commons.lang3.StringUtils" include nil nil [1016 1060])
+            ("org.eclipse.core.resources.ResourcesPlugin" include nil nil [1061 1111])
+            ("org.eclipse.core.runtime.IPath" include nil nil [1112 1150])
+            ("org.eclipse.core.runtime.jobs.Job" include nil nil [1151 1192])
+            ("org.eclipse.jdt.core.ICompilationUnit" include nil nil [1193 1238])
+            ("org.eclipse.jdt.core.JavaCore" include nil nil [1239 1276])
+            ("org.eclipse.jdt.core.JavaModelException" include nil nil [1277 1324])
+            ("org.eclipse.jdt.core.manipulation.CoreASTProvider" include nil nil [1325 1382])
+            ("org.eclipse.jdt.ls.core.internal.JDTEnvironmentUtils" include nil nil [1383 1443])
+            ("org.eclipse.jdt.ls.core.internal.JDTUtils" include nil nil [1444 1493])
+            ("org.eclipse.jdt.ls.core.internal.ProjectUtils" include nil nil [1494 1547])
+            ("org.eclipse.jdt.ls.core.internal.ResourceUtils" include nil nil [1548 1602])
+            ("org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler" include nil nil [1603 1677])
+            ("org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers" include nil nil [1678 1742])
+            ("org.eclipse.jdt.ls.core.internal.managers.ContentProviderManager" include nil nil [1743 1815])
+            ("org.eclipse.jdt.ls.core.internal.managers.ProjectsManager" include nil nil [1816 1881])
+            ("org.eclipse.lsp4j.CompletionItem" include nil nil [1882 1922])
+            ("org.eclipse.lsp4j.CompletionItemKind" include nil nil [1923 1967])
+            ("org.eclipse.lsp4j.CompletionList" include nil nil [1968 2008])
+            ("org.eclipse.lsp4j.CompletionParams" include nil nil [2009 2051])
+            ("org.eclipse.lsp4j.DefinitionParams" include nil nil [2052 2094])
+            ("org.eclipse.lsp4j.DidCloseTextDocumentParams" include nil nil [2095 2147])
+            ("org.eclipse.lsp4j.DidOpenTextDocumentParams" include nil nil [2148 2199])
+            ("org.eclipse.lsp4j.DocumentSymbol" include nil nil [2200 2240])
+            ("org.eclipse.lsp4j.DocumentSymbolParams" include nil nil [2241 2287])
+            ("org.eclipse.lsp4j.Hover" include nil nil [2288 2319])
+            ("org.eclipse.lsp4j.HoverParams" include nil nil [2320 2357])
+            ("org.eclipse.lsp4j.Location" include nil nil [2358 2392])
+            ("org.eclipse.lsp4j.LocationLink" include nil nil [2393 2431])
+            ("org.eclipse.lsp4j.MarkedString" include nil nil [2432 2470])
+            ("org.eclipse.lsp4j.Position" include nil nil [2471 2505])
+            ("org.eclipse.lsp4j.PublishDiagnosticsParams" include nil nil [2506 2556])
+            ("org.eclipse.lsp4j.SymbolInformation" include nil nil [2557 2600])
+            ("org.eclipse.lsp4j.SymbolKind" include nil nil [2601 2637])
+            ("org.eclipse.lsp4j.TextDocumentIdentifier" include nil nil [2638 2686])
+            ("org.eclipse.lsp4j.TextDocumentItem" include nil nil [2687 2729])
+            ("org.eclipse.lsp4j.TypeDefinitionParams" include nil nil [2730 2776])
+            ("org.eclipse.lsp4j.jsonrpc.messages.Either" include nil nil [2777 2826])
+            ("org.junit.After" include nil nil [2827 2850])
+            ("org.junit.Before" include nil nil [2851 2875])
+            ("org.junit.Test" include nil nil [2876 2898])
+            ("org.junit.runner.RunWith" include nil nil [2899 2931])
+            ("org.mockito.runners.MockitoJUnitRunner" include nil nil [2932 2978])
+            ("SyntaxServerTest" type
+               (:typemodifiers ("public")
+                :superclasses "AbstractSyntaxProjectsManagerBasedTest"
+                :members 
+                  ( ("server" variable
+                       (:typemodifiers ("private")
+                        :type "SyntaxLanguageServer")
+                        (reparse-symbol class_member_declaration) [3095 3131])
+                    ("sharedASTProvider" variable
+                       (:typemodifiers ("private")
+                        :type "CoreASTProvider")
+                        (reparse-symbol class_member_declaration) [3133 3175])
+                    ("oldServerMode" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3178 3212])
+                    ("oldBuildStatus" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [3214 3253])
+                    ("setup" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3265 3858])
+                    ("tearDown" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3869 4290])
+                    ("testDidOpen" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4300 5194])
+                    ("testDidClose" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5204 6049])
+                    ("testSyntaxDiagnostics" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6059 6774])
+                    ("testDocumentSymbol" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6784 7983])
+                    ("testDefinition" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7993 8822])
+                    ("testTypeDefinition" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [8832 9555])
+                    ("testHover" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [9565 10258])
+                    ("testHoverType" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10268 10965])
+                    ("testHoverUnresolvedType" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10975 11693])
+                    ("testCompletionOnSingleName" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [11703 13603])
+                    ("testCompletionOnQualifiedName" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [13613 14814])
+                    ("testResolveCompletion" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [14824 16809])
+                    ("openFile" function
+                       (:throws ("Exception")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("basePath" variable (:type "String") (reparse-symbol formal_parameters) [16833 16848])
+                            ("filePath" variable (:type "String") (reparse-symbol formal_parameters) [16850 16865]))                          
+                        :type "URI")
+                        (reparse-symbol class_member_declaration) [16812 17360])
+                    ("getFilePath" function
+                       (:throws ("IOException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("basePath" variable (:type "String") (reparse-symbol formal_parameters) [17389 17404])
+                            ("filePath" variable (:type "String") (reparse-symbol formal_parameters) [17406 17421]))                          
+                        :type "IPath")
+                        (reparse-symbol class_member_declaration) [17363 17531])
+                    ("getFileURI" function
+                       (:throws ("IOException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("basePath" variable (:type "String") (reparse-symbol formal_parameters) [17557 17572])
+                            ("filePath" variable (:type "String") (reparse-symbol formal_parameters) [17574 17589]))                          
+                        :type "URI")
+                        (reparse-symbol class_member_declaration) [17534 17673])
+                    ("getFileUri" function
+                       (:throws ("IOException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("basePath" variable (:type "String") (reparse-symbol formal_parameters) [17702 17717])
+                            ("filePath" variable (:type "String") (reparse-symbol formal_parameters) [17719 17734]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [17676 17822])
+                    ("getClientRequests" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [17895 17906]))                          )
+                        (reparse-symbol class_member_declaration) [17877 18033])
+                    ("getTextDocument" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("uri" variable (:type "String") (reparse-symbol formal_parameters) [18077 18087])
+                            ("content" variable (:type "String") (reparse-symbol formal_parameters) [18089 18103]))                          
+                        :type "TextDocumentItem")
+                        (reparse-symbol class_member_declaration) [18036 18319])
+                    ("findLocation" function
+                       (:throws ("JavaModelException")
+                        :typemodifiers ("private")
+                        :arguments 
+                          ( ("unit" variable (:type "ICompilationUnit") (reparse-symbol formal_parameters) [18349 18370])
+                            ("targetWord" variable (:type "String") (reparse-symbol formal_parameters) [18372 18389]))                          
+                        :type "int[]")
+                        (reparse-symbol class_member_declaration) [18322 18593]))                  
+                :type "class")
+                nil [3015 18595]))          
+      :file "SyntaxServerTest.java"
+      :pointmax 18596
+      :fsize 18578
+      :lastmodtime '(24512 15183 376852 22000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ff6b6c0a0f0"
+      :major-mode java-mode
+      :tags 
+        '( ("org.eclipse.jdt.ls.core.internal.syntaxserver" package nil nil [573 627])
+            ("java.io.File" include nil nil [750 770])
+            ("java.io.IOException" include nil nil [792 819])
+            ("java.lang.reflect.InvocationHandler" include nil nil [820 863])
+            ("java.lang.reflect.Method" include nil nil [864 896])
+            ("java.lang.reflect.Proxy" include nil nil [897 928])
+            ("java.util.ArrayList" include nil nil [929 956])
+            ("java.util.Arrays" include nil nil [957 981])
+            ("java.util.Collection" include nil nil [982 1010])
+            ("java.util.Collections" include nil nil [1011 1040])
+            ("java.util.HashMap" include nil nil [1041 1066])
+            ("java.util.List" include nil nil [1067 1089])
+            ("java.util.Map" include nil nil [1090 1111])
+            ("org.apache.commons.io.FileUtils" include nil nil [1113 1152])
+            ("org.eclipse.core.resources.IFile" include nil nil [1153 1193])
+            ("org.eclipse.core.resources.IProject" include nil nil [1194 1237])
+            ("org.eclipse.core.resources.IResource" include nil nil [1238 1282])
+            ("org.eclipse.core.resources.IWorkspaceRunnable" include nil nil [1283 1336])
+            ("org.eclipse.core.runtime.CoreException" include nil nil [1337 1383])
+            ("org.eclipse.core.runtime.IPath" include nil nil [1384 1422])
+            ("org.eclipse.core.runtime.IProgressMonitor" include nil nil [1423 1472])
+            ("org.eclipse.core.runtime.NullProgressMonitor" include nil nil [1473 1525])
+            ("org.eclipse.core.runtime.Path" include nil nil [1526 1563])
+            ("org.eclipse.core.runtime.Platform" include nil nil [1564 1605])
+            ("org.eclipse.jdt.core.IBuffer" include nil nil [1606 1642])
+            ("org.eclipse.jdt.core.ICompilationUnit" include nil nil [1643 1688])
+            ("org.eclipse.jdt.core.JavaCore" include nil nil [1689 1726])
+            ("org.eclipse.jdt.core.WorkingCopyOwner" include nil nil [1727 1772])
+            ("org.eclipse.jdt.ls.core.internal.DocumentAdapter" include nil nil [1773 1829])
+            ("org.eclipse.jdt.ls.core.internal.JavaClientConnection.JavaLanguageClient" include nil nil [1830 1910])
+            ("org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin" include nil nil [1911 1976])
+            ("org.eclipse.jdt.ls.core.internal.JobHelpers" include nil nil [1977 2028])
+            ("org.eclipse.jdt.ls.core.internal.ProjectUtils" include nil nil [2029 2082])
+            ("org.eclipse.jdt.ls.core.internal.SimpleLogListener" include nil nil [2083 2141])
+            ("org.eclipse.jdt.ls.core.internal.preferences.ClientPreferences" include nil nil [2142 2212])
+            ("org.eclipse.jdt.ls.core.internal.preferences.PreferenceManager" include nil nil [2213 2283])
+            ("org.eclipse.jdt.ls.core.internal.preferences.Preferences" include nil nil [2284 2348])
+            ("org.junit.After" include nil nil [2349 2372])
+            ("org.junit.Before" include nil nil [2373 2397])
+            ("org.mockito.Mock" include nil nil [2398 2422])
+            ("AbstractSyntaxProjectsManagerBasedTest" type
+               (:typemodifiers ("public" "abstract")
+                :members 
+                  ( ("monitor" variable
+                       (:typemodifiers ("protected")
+                        :type "IProgressMonitor")
+                        (reparse-symbol class_member_declaration) [2488 2523])
+                    ("projectsManager" variable
+                       (:typemodifiers ("protected")
+                        :type "SyntaxProjectsManager")
+                        (reparse-symbol class_member_declaration) [2525 2573])
+                    ("preferenceManager" variable
+                       (:typemodifiers ("protected")
+                        :type "PreferenceManager")
+                        (reparse-symbol class_member_declaration) [2582 2628])
+                    ("oldPreferenceManager" variable
+                       (:typemodifiers ("private")
+                        :type "PreferenceManager")
+                        (reparse-symbol class_member_declaration) [2631 2678])
+                    ("preferences" variable
+                       (:typemodifiers ("protected")
+                        :type "Preferences")
+                        (reparse-symbol class_member_declaration) [2681 2715])
+                    ("logListener" variable
+                       (:typemodifiers ("protected")
+                        :type "SimpleLogListener")
+                        (reparse-symbol class_member_declaration) [2718 2758])
+                    ("client" variable
+                       (:typemodifiers ("protected")
+                        :type "JavaLanguageClient")
+                        (reparse-symbol class_member_declaration) [2833 3384])
+                    ("initProjectManager" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3396 4476])
+                    ("initPreferenceManager" function
+                       (:typemodifiers ("protected")
+                        :arguments 
+                          ( ("supportClassFileContents" variable (:type "boolean") (reparse-symbol formal_parameters) [4529 4561]))                          
+                        :type "ClientPreferences")
+                        (reparse-symbol class_member_declaration) [4479 5020])
+                    ("importProjects" function
+                       (:constructor-flag t
+                        :throws ("Exception")
+                        :arguments 
+                          ( ("path" variable (:type "String") (reparse-symbol formal_parameters) [5063 5074]))                          )
+                        (reparse-symbol class_member_declaration) [5048 5151])
+                    ("importExistingProjects" function
+                       (:constructor-flag t
+                        :throws ("Exception")
+                        :arguments 
+                          ( ("path" variable (:type "String") (reparse-symbol formal_parameters) [5202 5213]))                          )
+                        (reparse-symbol class_member_declaration) [5179 5297])
+                    ("importProjects" function
+                       (:constructor-flag t
+                        :throws ("Exception")
+                        :arguments 
+                          ( ("" variable (:type "paths") (reparse-symbol formal_parameters) [5359 5364]))                          )
+                        (reparse-symbol class_member_declaration) [5325 5425])
+                    ("importProjects" function
+                       (:constructor-flag t
+                        :throws ("Exception")
+                        :arguments 
+                          ( ("" variable (:type "paths") (reparse-symbol formal_parameters) [5487 5492])
+                            ("deleteExistingFiles" variable (:type "boolean") (reparse-symbol formal_parameters) [5494 5521]))                          )
+                        (reparse-symbol class_member_declaration) [5453 6091])
+                    ("getSourceProjectDirectory" function
+                       (:typemodifiers ("protected")
+                        :type "File")
+                        (reparse-symbol class_member_declaration) [6094 6172])
+                    ("getWorkingProjectDirectory" function
+                       (:throws ("IOException")
+                        :typemodifiers ("protected")
+                        :type "File")
+                        (reparse-symbol class_member_declaration) [6175 6337])
+                    ("cleanUp" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [6348 6843])
+                    ("copyFiles" function
+                       (:throws ("IOException")
+                        :typemodifiers ("protected")
+                        :arguments 
+                          ( ("path" variable (:type "String") (reparse-symbol formal_parameters) [6871 6882])
+                            ("reimportIfExists" variable (:type "boolean") (reparse-symbol formal_parameters) [6884 6908]))                          
+                        :type "File")
+                        (reparse-symbol class_member_declaration) [6846 7282])
+                    ("getWorkingTestPath" function
+                       (:throws ("IOException")
+                        :typemodifiers ("protected")
+                        :arguments 
+                          ( ("path" variable (:type "String") (reparse-symbol formal_parameters) [7320 7331]))                          
+                        :type "IPath")
+                        (reparse-symbol class_member_declaration) [7285 7448]))                  
+                :type "class")
+                nil [2424 7450]))          
+      :file "AbstractSyntaxProjectsManagerBasedTest.java"
+      :pointmax 7451
+      :fsize 7429
+      :lastmodtime '(24512 15183 375848 812000)
+      :unmatched-syntax nil))
+  :file "!Users!franciscorevelles!eclipse.jdt.ls!org.eclipse.jdt.ls.tests.syntaxserver!src!org!eclipse!jdt!ls!core!internal!syntaxserver!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

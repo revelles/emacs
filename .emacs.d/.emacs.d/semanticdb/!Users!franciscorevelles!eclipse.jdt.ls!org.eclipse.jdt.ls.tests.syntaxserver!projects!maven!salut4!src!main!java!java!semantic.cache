@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file-1ff6b8c2f6ac
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ff6b8c2f6ac"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ff6b8c2f6b8"
+      :major-mode java-mode
+      :tags 
+        '( ("Completion" type
+               (:typemodifiers ("public")
+                :type "class")
+                nil [1 29]))          
+      :file "Completion.java"
+      :pointmax 30
+      :fsize 29
+      :lastmodtime '(24512 15183 368252 656000)
+      :unmatched-syntax nil))
+  :file "!Users!franciscorevelles!eclipse.jdt.ls!org.eclipse.jdt.ls.tests.syntaxserver!projects!maven!salut4!src!main!java!java!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

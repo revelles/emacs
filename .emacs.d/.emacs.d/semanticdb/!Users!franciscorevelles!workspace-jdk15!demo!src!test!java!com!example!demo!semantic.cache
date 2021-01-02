@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-1fef2f8df814
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1fef2f8df814"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1fef2f8df820"
+      :major-mode java-mode
+      :tags nil
+      :file "DemoApplicationTests.java"
+      :pointmax 207
+      :fsize 206
+      :lastmodtime '(24516 36364 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!franciscorevelles!workspace-jdk15!demo!src!test!java!com!example!demo!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

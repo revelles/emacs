@@ -1,0 +1,113 @@
+;; Object semanticdb-project-database-file-1ff4cf012644
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ff4cf012644"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ff4cf0125c4"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example.demo" package nil nil [1 26])
+            ("Person" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("name" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [55 75])
+                    ("title" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [80 101])
+                    ("getTitle" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [108 162])
+                    ("setTitle" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("title" variable (:type "String") (reparse-symbol formal_parameters) [190 202]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [169 239])
+                    ("getName" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [246 298])
+                    ("setName" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("name" variable (:type "String") (reparse-symbol formal_parameters) [325 336]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [305 371]))                  
+                :type "class")
+                nil [29 373]))          
+      :file "Person.java"
+      :pointmax 377
+      :fsize 376
+      :lastmodtime '(24520 1574 256840 487000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ff4cf0125e4"
+      :major-mode java-mode
+      :tags 
+        '( ("com.example.demo" package nil nil [1 26])
+            ("org.springframework.web.bind.annotation.RequestMapping" include nil nil [28 90])
+            ("org.springframework.web.bind.annotation.RestController" include nil nil [91 153])
+            ("HelloController" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("index" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [229 298]))                  
+                :type "class")
+                nil [172 307]))          
+      :file "HelloController.java"
+      :pointmax 308
+      :fsize 307
+      :lastmodtime '(24522 42251 383522 488000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ff4cf012604"
+      :major-mode java-mode
+      :tags nil
+      :file "DemoApplication.java"
+      :pointmax 315
+      :fsize 314
+      :lastmodtime '(24520 53216 865528 159000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ff4cf012624"
+      :major-mode java-mode
+      :tags 
+        '( ("java.util.Arrays" include nil nil [29 53])
+            ("java.util.Set" include nil nil [54 75])
+            ("org.springframework.boot.CommandLineRunner" include nil nil [77 127])
+            ("org.springframework.boot.SpringApplication" include nil nil [128 178])
+            ("org.springframework.boot.autoconfigure.SpringBootApplication" include nil nil [179 247])
+            ("org.springframework.context.ApplicationContext" include nil nil [248 302])
+            ("org.springframework.context.annotation.Bean" include nil nil [303 354])
+            ("Application" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [433 446]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [409 502])
+                    ("commandLineRunner" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("ctx" variable (:type "ApplicationContext") (reparse-symbol formal_parameters) [555 577]))                          
+                        :type "CommandLineRunner")
+                        (reparse-symbol class_member_declaration) [512 1030]))                  
+                :type "class")
+                nil [380 1033]))          
+      :file "Application.java"
+      :pointmax 1036
+      :fsize 1035
+      :lastmodtime '(24527 53646 594507 473000)
+      :unmatched-syntax '((IDENTIFIER 357 . 379) (IDENTIFIER 22 . 26) (DOT 21 . 22) (IDENTIFIER 14 . 21) (DOT 13 . 14) (IDENTIFIER 10 . 13) (IDENTIFIER 1 . 9))))
+  :file "!Users!franciscorevelles!workspace-1130-jdk15!demo!src!main!java!com!example!demo!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

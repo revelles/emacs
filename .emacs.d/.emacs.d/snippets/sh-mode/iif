@@ -1,0 +1,5 @@
+#name : iif
+# --
+if [[ ${1} ]]; then
+  $0
+fi

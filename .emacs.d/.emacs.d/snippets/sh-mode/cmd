@@ -1,0 +1,57 @@
+#name : cmd
+# --
+#! /usr/bin/env bash
+
+# by torstein@escenic.com
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+show_help_and_exit() {
+  cat <<EOF
+Usage: \${BASH_SOURCE[0]} [OPTIONS]
+
+OPTIONS
+  -h, --help   Don't panic.
+EOF
+}
+
+read_user_input() {
+  local OPTS=
+  OPTS=$(getopt \
+           -o h \
+           --long help \
+           -n 'parse-options' \
+           -- "$@")
+  if [ $? != 0 ] ; then
+    echo "Failed parsing options." >&2
+    exit 1
+  fi
+  eval set -- "$OPTS"
+
+  while true; do
+    case "\$1" in
+      -h | --help )
+        show_help_and_exit;
+        break;;
+      -- )
+        shift;
+        break ;;
+      * )
+        break ;;
+    esac
+  done
+
+  rest_of_args=$*
+}
+
+main() {
+  read_user_input "$@"
+  $0
+}
+
+main "$@"
+
+
+
